@@ -46,4 +46,5 @@ class EmailService {
 
 const employee = new Employee('Anna', 25000);
 const dbManager = new DBManager();
+
 dbManager.saveEmployeeToDB(employee);
